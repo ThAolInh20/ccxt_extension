@@ -122,5 +122,8 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
-
+    'binance' => [
+        'apiKey' => env('BINANCE_KEY'),
+        'secret' => env('BINANCE_SECRET'),
+    ]
 ];
